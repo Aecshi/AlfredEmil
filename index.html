@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alfred Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <meta
+      name="description"
+      content="Alfred Emil Cepillo - Full Stack Developer Portfolio"
+    />
+    <meta
+      name="keywords"
+      content="web developer, full stack developer, PHP, JavaScript, MySQL"
+    />
+    <meta name="author" content="Alfred Emil Cepillo" />
+    <meta property="og:title" content="Alfred Emil Cepillo - Portfolio" />
+    <meta
+      property="og:description"
+      content="Full Stack Developer specializing in web development"
+    />
+    <meta
+      property="og:image"
+      content="https://your-domain.com/images/preview.jpg"
+    />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-ACTUAL_ID"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "YOUR_TRACKING_ID");
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="#home">
+          <img src="images/logo.jpg" alt="Alfred's Portfolio Logo" />
+        </a>
+      </div>
+      <ul class="nav_links">
+        <li class="links"><a href="#home">Home</a></li>
+        <li class="links"><a href="#about">About</a></li>
+        <li class="links"><a href="#services">Services</a></li>
+        <li class="links"><a href="#projects">Projects</a></li>
+        <li class="links"><a href="#contact">Contact</a></li>
+        <li class="links"><a href="#education">Education</a></li>
+      </ul>
+      <button class="btn" onclick="location.href='#contact'">Hire Me</button>
+    </nav>
+    <div class="hero-container" id="home">
+      <div class="hero-content">
+        <h1>Hi, I'm Alfred!</h1>
+        <h2>and I am a Full-Stack Developer!</h2>
+        <p class="hero-description">
+          I create websites or systems that are fast, responsive, and easy to
+          use. I am passionate about web development and software development.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn">Get In Touch</a>
+          <a href="#projects" class="btn btn-outline">My Work</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img
+          src="images/container_img.jpg"
+          alt="Cool Programming Setup"
+          loading="lazy"
+        />
+      </div>
+    </div>
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h2 class="section-title">About Me</h2>
+            <p>
+              Hi! My name is Alfred and I am a web developer. I am currently a
+              student at Clarendon College taking up Bachelor of Science in
+              Information System. I am passionate about web development and
+              software development.
+            </p>
+          </div>
+          <div class="skills">
+            <h3>My Skills</h3>
+            <div class="skills-grid">
+              <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <span>HTML5</span>
+              </div>
+              <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <span>CSS3</span>
+              </div>
+              <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <span>JavaScript</span>
+              </div>
+              <div class="skill-card">
+                <i class="fab fa-php"></i>
+                <span>PHP</span>
+              </div>
+              <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <span>MySQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-card">
+          <div class="education-header">
+            <i class="fas fa-graduation-cap"></i>
+            <div class="education-info">
+              <h3>Bachelor of Science in Information Systems</h3>
+              <a
+                href="https://www.facebook.com/clarendoncollege"
+                target="_blank"
+                class="school-link"
+              >
+                <i class="fab fa-facebook"></i>
+                Clarendon College
+              </a>
+              <p class="education-year">Third Year Student (2021 - Present)</p>
+            </div>
+          </div>
+          <div class="education-details">
+            <p>
+              Currently pursuing a degree in Information Systems with focus on:
+            </p>
+            <ul>
+              <li>Web Development</li>
+              <li>Database Management</li>
+              <li>Systems Analysis and Design</li>
+              <li>Software Development</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <h2 class="section-title">What I Offer</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <i class="fas fa-desktop"></i>
+            <h3>Web Development</h3>
+            <p>
+              Custom websites built with modern technologies and best practices
+              for optimal performance and user experience.
+            </p>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-database"></i>
+            <h3>Database Design</h3>
+            <p>
+              Efficient database architecture and management systems to handle
+              your data needs securely and effectively.
+            </p>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Responsive Design</h3>
+            <p>
+              Mobile-first approach ensuring your website looks and functions
+              perfectly across all devices and screen sizes.
+            </p>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-code"></i>
+            <h3>Full-Stack Solutions</h3>
+            <p>
+              End-to-end web applications combining front-end interfaces with
+              robust back-end functionality.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <video autoplay muted loop loading="lazy">
+              <source src="videos/emz.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="project-card">
+            <video autoplay muted loop loading="lazy">
+              <source src="videos/jc.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="project-card">
+            <video autoplay muted loop loading="lazy">
+              <source src="videos/e-cravings.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="footer-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h3>Phone</h3>
+                <p>09565593141</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-facebook"></i>
+              <div>
+                <h3>Facebook</h3>
+                <p>Alfred Emil Cepillo</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-instagram"></i>
+              <div>
+                <h3>Instagram</h3>
+                <p>Alfred Emil Cepillo</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-linkedin"></i>
+              <div>
+                <h3>LinkedIn</h3>
+                <p>Alfred Emil Cepillo</p>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <div class="g-recaptcha" data-sitekey="6LeoI_EqAAAAAM-Q_FtG4QALdUKGPBensg0C3mdx"></div>
+            <button type="submit" class="btn">Send Message</button>
+            <div class="form-status"></div>
+          </form>
+        </div>
+          <div class="social-links">
+            <a
+              href="https://www.facebook.com/alfredemil.cepillo"
+              target="_blank"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a
+              href="https://instagram.com/emilyoooooo__"
+              target="_blank"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+          <div class="legal-links">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+          </div>
+          <p class="copyright">&copy; 2025 Alfred. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
